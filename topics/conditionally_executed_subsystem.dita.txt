@@ -1,0 +1,27 @@
+<concept id="conditionally_executed_subsystem">
+  <title>Conditionally Executed Subsystems</title>
+
+  <shortdesc>Conditional subsystems can be very useful when you are building complex models that contain components whose execution depends on other components.</shortdesc>
+
+  <conbody>
+    <p>A conditional subsystem also known as <i>conditionally executed subsystem</i>is a subsystem whose execution depends on the value of an input signal. 
+	The signal that controls whether a subsystem executes is called the <i>control signal</i>
+	The signal enters the subsystem block at the <i>control input.</i>
+    </p>
+  </conbody>
+  
+  
+ <p> Simulink supports different kinds of conditional subsystems:
+ <ul>
+ <li>An <i>enabled subsystem </i> executes while the control signal is positive. It starts execution at the time step where the control signal crosses zero (from the negative to the positive direction) and continues execution while the control signal remains positive. </li>
+ <li>A <i>triggered subsystem </i>executes once each time a trigger event occurs. A trigger event can occur on the rising or falling edge of a trigger signal, which can be continuous or discrete.</li>
+ <li>A <i>triggered and enabled subsystem<i> executes once on the time step when a trigger event occurs if the enable control signal has a positive value at that step. </li>
+ <li>A <i>control flow subsystem </i>executes one or more times at the current time step when enabled by a control flow block. A control flow block implements control logic similar to that expressed by control flow statements of programming languages (e.g., if-then, while-do, switch, and for).</li>
+ 
+ </ul>
+ </p>
+ 
+  <related-links>
+
+  </related-links>
+</concept>

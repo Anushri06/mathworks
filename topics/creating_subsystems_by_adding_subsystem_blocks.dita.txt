@@ -1,0 +1,32 @@
+<task id="creating_subsystems_by_adding_subsystem_blocks">
+  <title>Creating a Subsystem by Adding the Subsystem Block</title>
+   <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>creating subsystem<indexterm> by adding subsystem blocks</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <taskbody>
+  
+   <p>To create a subsystem before adding the blocks it contains, add a subsystem block to the model, then add the blocks that make up the subsystem:</p>
+
+    <steps>
+      <step>
+        <cmd>Copy the subsystem block from the ports & subsystems library into your model.</cmd>
+      </step>
+
+      <step>
+        <cmd>Open the subsystem block by double-clicking it.</cmd>
+      </step>
+
+      <step>
+        <cmd>In the empty subsystem window, create the subsystem.Use Inport blocks to represent input from outside the subsystem and Outport blocks to represent external output.</cmd>
+
+      </step>
+    </steps>
+	<p>For example, the subsystem shown includes a Sum block and Inport and Outport blocks to represent input to and output from the subsystem.</p>
+	<fig> <image href="Figure1.png"/> </fig>
+  </taskbody>
+</task>

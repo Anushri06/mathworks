@@ -1,0 +1,17 @@
+<concept id="conditional_execution_behavior">
+  <title>Conditional Execution(CE) Behavior</title>  
+<prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Conditional Execution(CE) Behavior</indexterm></indexterm>
+      </keywords>
+    </metadata>
+</prolog>
+  
+<conbody>
+
+	<p>To speed the simulation of a model, by default the Simulink® software avoids unnecessary execution of blocks connected to switch, multiport switch, and of conditionally executed blocks. 
+	This behavior is conditional execution (CE) behavior. 
+	You can disable this behavior for all switch and multiport switch blocks in a model, or for specific conditional subsystems.</p>
+</conbody>
+</concept>

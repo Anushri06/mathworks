@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" >
+<topic id="creating_subsystems">
+   <title>Creating SubSystems</title>
+    <shortdesc>This section gives an over view on how to create subsystems.</shortdesc>
+   <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>creating subsystem</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+ 
+<p>You can create a subsystem in two ways:</p>
+<ul>
+<li>Add a subsystem block to your model, then open that block and add the blocks it contains to the subsystem window.</li>
+<li>Add the blocks that make up the subsystem, then group those blocks into a subsystem.</li>
+</ul>
+</body>
+
+</topic>

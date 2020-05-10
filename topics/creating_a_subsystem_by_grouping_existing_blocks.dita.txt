@@ -1,0 +1,37 @@
+<task id="creating_a_subsystem_by_grouping_existing_blocks">
+  <title>Creating a Subsystem by grouping existing blocks</title>
+  
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>creating a subsystem <indexterm> by grouping existing blocks</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <taskbody>
+  <p>If your model already contains the blocks you want to convert to a subsystem, you can create the subsystem by grouping those blocks: </p>
+    <steps>
+      <step>
+        <cmd>Enclose the blocks and connecting lines that you want to include in the subsystem within a bounding box. To select multiple blocks that are in one area of the model, click the left mouse button and drag the cursor.</cmd>
+
+        <stepxmp><screen><fig> <image href=../figure/figure2.png/> </fig></screen></stepxmp>
+
+        <stepresult><p>When you release the mouse button, the two blocks and all the connecting lines are selected.</p></stepresult>
+      </step>
+
+      <step>
+        <cmd>Choose <cmdname>Create Subsystem</cmdname> from the <uicontrol>Selection</uicontrol>. A subsystem block replaces the selected blocks with a subsystem block. </cmd>
+
+         <stepresult><p>The figure shows the subsystem.<fig> <image href=../figure/figure3.png/></fig></p></stepresult>
+      </step>
+
+      <step>
+        <cmd>Resize the subsystem block so the port labels are readable</cmd>
+
+        <stepresult><p>If you open the subsystem block, the underlying system opens, as shown below. Notice that Simulink adds Inport and Outport blocks to represent input from and output to blocks outside the subsystem..<fig> <image href=../figure/figure4.png/></fig></p></stepresult>
+      </step>
+
+    </steps>
+  </taskbody>
+</task>

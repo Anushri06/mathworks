@@ -1,0 +1,14 @@
+<concept id="subsystem">
+  <title>SubSystems</title>  
+<prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Subsystem</indexterm></indexterm>
+      </keywords>
+    </metadata>
+</prolog>
+  
+<conbody>
+	<p>A subsystem is a set of blocks that have been replaced by a single block called a subsystem block.</p>
+</conbody>
+</concept>
